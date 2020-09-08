@@ -5,7 +5,7 @@ import { AuthService } from '../auth/auth.service';
 import { Mission } from '../missions/miss.domains';
 import { DataService } from '../services/data.service';
 import * as pdfMake from 'pdfmake/build/pdfmake';
-import * as pdfFonts from 'pdfMake/build/vfs_fonts';
+import * as pdfFonts from 'pdfMake/build/vfs_fonts.js';
 import { DatePipe } from '@angular/common';
 import { LigneDeFrais } from './ligne-de-frais/ligneFrais.domain';
 (pdfMake as any).vfs = pdfFonts.pdfMake.vfs;
